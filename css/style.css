@@ -68,18 +68,6 @@ button {
   display: flex;
 }
 
-.active::after {
-  display: block;
-  content: "";
-  width: auto;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--blue-text);
-  position: relative;
-  top: 130%;
-  cursor: auto;
-}
-
 .header_container {
   display: flex;
   justify-content: space-between;
