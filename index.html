@@ -21,7 +21,9 @@
           <a class="icono_web" href="./index.html">Webstudio</a>
           <ul class="navegation_link">
             <li>
-              <a class="link_nav filtro_nav" href="./index.html">Estudio</a>
+              <a class="link_nav filtro_nav active" href="./index.html"
+                >Estudio</a
+              >
             </li>
             <li>
               <a class="link_nav filtro_nav" href="./portafolio.html"
@@ -31,15 +33,21 @@
             <li><a class="link_nav filtro_nav" href="#">Contactos</a></li>
           </ul>
         </nav>
-        <ul class="navegation_contac">
-          <li>
-            <a class="header_contac filtro_nav" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+        <ul class="cont_contac">
+          <li class="contacs">
+            <a href="mailto:info@devstudio.com">
+              <svg width="16px" height="12px">
+                <use href="./images/symbol-defs.svg#icon-sobre-activable"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="header_contac filtro_nav" href="tel:+525555296000"
-              >+52 55 5529 6000</a
+          <li class="contacs">
+            <a href="tel:+525555296000">
+              <svg width="10px" height="16px">
+                <use href="./images/symbol-defs.svg#icon-Phone"></use>
+              </svg>
+              +52 55 5529 6000</a
             >
           </li>
         </ul>
@@ -59,6 +67,11 @@
         <div class="container">
           <ul class="about about_space style">
             <li>
+              <div class="svg_about">
+                <svg width="70px" height="70px">
+                  <use href="./images/symbol-defs.svg#icon-Antena"></use>
+                </svg>
+              </div>
               <h6 class="about_title">ATENCION A LOS DETALLES</h6>
               <p class="about_text">
                 Nos adentramos en todos los detalles y procesos de su negocio,
@@ -66,6 +79,11 @@
               </p>
             </li>
             <li>
+              <div class="svg_about">
+                <svg width="70px" height="70px">
+                  <use href="./images/symbol-defs.svg#icon-reloj-1"></use>
+                </svg>
+              </div>
               <h6 class="about_title">PUNTUALIDAD</h6>
               <p class="about_text">
                 Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -74,6 +92,11 @@
               </p>
             </li>
             <li>
+              <div class="svg_about">
+                <svg width="70px" height="70px">
+                  <use href="./images/symbol-defs.svg#icon-PC"></use>
+                </svg>
+              </div>
               <h6 class="about_title">PLANIFICACION</h6>
               <p class="about_text">
                 Usted podrá observar y participar en cada fase del desarrollo y
@@ -81,6 +104,11 @@
               </p>
             </li>
             <li>
+              <div class="svg_about">
+                <svg width="70px" height="70px">
+                  <use href="./images/symbol-defs.svg#icon-astronauta-1"></use>
+                </svg>
+              </div>
               <h6 class="about_title">TECNOLOGIA MODERNA</h6>
               <p class="about_text">
                 Usamos herramientas innovadoras para resolver las tareas
@@ -92,16 +120,16 @@
       </section>
       <section id="make" class="section">
         <div class="container">
-          <h2 class="make">A qué nos dedicamos</h2>
-          <ul class="make_img style">
-            <li>
-              <img src="./images/caja1.jpg" alt="teclado" width="374" />
+          <h2 class="make_title container">A qué nos dedicamos</h2>
+          <ul class="make_img container">
+            <li class="make_cont make_bacground1">
+              <div class="make_text">APLICACIONES DE ESCRITORIO</div>
             </li>
-            <li>
-              <img src="./images/caja2.jpg" alt="celular en mano" width="374" />
+            <li class="make_cont make_bacground2">
+              <div class="make_text">APLICACIONES MOVILES</div>
             </li>
-            <li>
-              <img src="./images/caja3.jpg" alt="colores" width="374" />
+            <li class="make_cont make_bacground3">
+              <div class="make_text">SOLUCIONES DE DISEÑO</div>
             </li>
           </ul>
         </div>
@@ -118,6 +146,46 @@
               />
               <h3 class="team_name">Andres Cubo</h3>
               <p class="team_role">Diseñador de Productos</p>
+              <div>
+                <ul class="space_redes">
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="tarjet_color">
               <img
@@ -127,6 +195,46 @@
               />
               <h3 class="team_name">Carla Palacios</h3>
               <p class="team_role">Desarrolladora Frontend</p>
+              <div>
+                <ul class="space_redes">
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="tarjet_color">
               <img
@@ -136,6 +244,46 @@
               />
               <h3 class="team_name">Mario Dorado</h3>
               <p class="team_role">Marketing</p>
+              <div>
+                <ul class="space_redes">
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li class="tarjet_color">
               <img
@@ -145,37 +293,153 @@
               />
               <h3 class="team_name">Pablo Mijangos</h3>
               <p class="team_role">Diseñador IU</p>
+              <div>
+                <ul class="space_redes">
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="team_redes" href="">
+                      <svg width="20px" height="20px">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1 "
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-    </main>
-    <footer class="color_footer">
-      <div class="container">
-        <a class="icono_web filtro_nav" href="./index.html">Webstudio</a>
-        <address>
-          <ul class="style">
-            <li>
-              <a
-                class="link_footer filtro_nav"
-                target="_blank"
-                href="https://www.google.es/maps/place/Calz.+Ticom%C3%A1n+500,+La+Laguna+Ticoman,+Gustavo+A.+Madero,+07340+Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.5102072,-99.1350661,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f9c66374d1dd:0x72c74207e8767392!8m2!3d19.5102022!4d-99.1324912?hl=es&entry=ttu"
-                >Calz. Ticomán 500, Ciudad de <br />
-                México, CDMX, México</a
-              >
+      <sec id="customers">
+        <div class="container customers">
+          <h2 class="customers_title">Clientes Regulares</h2>
+          <ul class="customers_cont">
+            <li class="customers">
+              <a href="#">
+                <svg width="106" height="53">
+                  <use href="./images/symbol-defs.svg#icon-grupo"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="link_footer filtro_nav" href="mailto:info@example.com"
-                >info@example.com</a
-              >
+            <li class="customers">
+              <a href="#">
+                <svg width="106" height="53">
+                  <use href="./images/symbol-defs.svg#icon-grupo-1"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="link_footer filtro_nav" href="tel:+525555296000"
-                >+52 55 5529 6000</a
-              >
+            <li class="customers">
+              <a href="#">
+                <svg width="106" height="53">
+                  <use href="./images/symbol-defs.svg#icon-grupo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers">
+              <a href="#">
+                <svg width="106" height="53">
+                  <use href="./images/symbol-defs.svg#icon-grupo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers">
+              <a href="#">
+                <svg width="106" height="53">
+                  <use href="./images/symbol-defs.svg#icon-grupo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers">
+              <a href="#">
+                <svg width="106" height="53">
+                  <use href="./images/symbol-defs.svg#icon-grupo-5"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
+      </sec>
+    </main>
+    <footer class="color_footer">
+      <div class="container cont_footer">
+        <div>
+          <a class="icono_web filtro_nav" href="./index.html">Webstudio</a>
+          <address>
+            <ul>
+              <li>
+                <a
+                  class="filtro_nav link_footer"
+                  target="_blank"
+                  href="https://www.google.es/maps/place/Calz.+Ticom%C3%A1n+500,+La+Laguna+Ticoman,+Gustavo+A.+Madero,+07340+Ciudad+de+M%C3%A9xico,+CDMX,+M%C3%A9xico/@19.5102072,-99.1350661,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1f9c66374d1dd:0x72c74207e8767392!8m2!3d19.5102022!4d-99.1324912?hl=es&entry=ttu"
+                  >Calz. Ticomán 500, Ciudad de <br />
+                  México, CDMX, México</a
+                >
+              </li>
+              <li>
+                <a class="link_footer filtro_nav" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="link_footer filtro_nav" href="tel:+525555296000"
+                  >+52 55 5529 6000</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <h3 class="find_title">ENCUENTRANOS EN</h3>
+          <ul class="find_redes">
+            <li class="redes_footer">
+              <svg width="20px" height="20px">
+                <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+              </svg>
+            </li>
+            <li class="redes_footer">
+              <svg width="20px" height="20px">
+                <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+              </svg>
+            </li>
+            <li class="redes_footer">
+              <svg width="20px" height="20px">
+                <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+              </svg>
+            </li>
+            <li class="redes_footer">
+              <svg width="20px" height="20px">
+                <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
