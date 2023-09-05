@@ -114,7 +114,8 @@ button {
     url(../images/Meethero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  max-width: 1600px;
 }
 
 .title {
